@@ -1,0 +1,31 @@
+h1 {
+    width: 455px;
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    width: 455px;
+    color: green;
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+p {
+    width: 455px;
+    text-indent: 40px;
+    font-family: sans-serif;
+    line-height: 25px;
+    text-align: justify;
+}
+
+i {
+    color: green;
+}
+
+li {
+    width: 400px;
+    text-align: justify;
+}

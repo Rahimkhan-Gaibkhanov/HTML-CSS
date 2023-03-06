@@ -1,0 +1,25 @@
+.p1 {
+    font-size: 30px;
+    color: red;
+    text-decoration: overline;
+}
+
+.p2 {
+    font-size: 30px;
+    color: green;
+    text-decoration: line-through;
+}
+
+.p3 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.p4 {
+    font-size: 30px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
