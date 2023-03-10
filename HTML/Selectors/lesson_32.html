@@ -13,5 +13,123 @@
 
     <a href="https://code.mu/ru/markup/book/prime/theory/descendant-selector-and-classes/" class="path">Путь к уроку</a>
 
+    <!-- №1
+
+    Дан следующий код:
+    <p class="eee">
+        текст <i>курсив</i>
+    </p>
+    <p class="eee">
+        текст <i>курсив</i>
+    </p>
+    <div class="eee">
+        текст <i>курсив</i>
+    </div>
+    <div class="eee">
+        текст <i>курсив</i>
+    </div>
+    
+    Покрасьте в красный цвет все теги i, находящиеся в элементах с классом eee.  -->
+
+    <p class="eee">
+        текст <i>курсив</i>
+    </p>
+    <p class="eee">
+        текст <i>курсив</i>
+    </p>
+    <div class="eee">
+        текст <i>курсив</i>
+    </div>
+    <div class="eee">
+        текст <i>курсив</i>
+    </div>
+
+    <!-- №2
+
+    Расскажите, что выбирает селектор в приведенном ниже коде. Затем напишите HTML код, подходящий под этот селектор. Вот код с селектором:
+    .eee .bbb {
+        color: red;
+    } -->
+
+    <!-- Селектор выбирет элемент с классом .bbb внутри элемента с классом .eee -->
+
+    <div class="eee">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, cum est laborum enim numquam quaerat eos totam nobis dignissimos tempore eius nihil explicabo nesciunt saepe assumenda culpa alias necessitatibus distinctio.
+        <p class="bbb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eveniet iure animi iste iusto dolores tempora consectetur rem, enim eos debitis, molestias consequuntur inventore ratione! Laborum nemo obcaecati excepturi voluptatum!</p>
+    </div>
+
+    <!-- №3
+
+    Расскажите, что выбирает селектор в приведенном ниже коде. Затем напишите HTML код, подходящий под этот селектор. Вот код с селектором:
+    .eee h2 {
+        color: red;
+    } -->
+
+    <!-- Селектор выбирет элемент h2 внутри элемента с классом .eee -->
+
+    <div class="eee">
+        Lorem ipsum dolor sit amet 
+        <h2>Lorem ipsum dolor sit amet.</h2>
+    </div>
+
+    <!-- №4
+
+    Расскажите, что выбирает селектор в приведенном ниже коде. Затем напишите HTML код, подходящий под этот селектор. Вот код с селектором:
+    .eee h2.bbb {
+        color: red;
+    } -->
+
+    <!-- Селектор выбирает элемент h2 с классом .bbb внутри элемента с классом .eee -->
+
+    <div class="eee">
+        Lorem ipsum dolor sit amet 
+        <h2 class="bbb">Lorem ipsum dolor sit amet.</h2>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+    </div>
+
+    <!-- №5
+
+    Расскажите, что выбирает селектор в приведенном ниже коде. Затем напишите HTML код, подходящий под этот селектор. Вот код с селектором:
+    .eee h3.bbb {
+        color: red;
+    } -->
+
+    <!-- Селектор выбирает элемент h3 с классом .bbb внутри элемента с классом .eee -->
+
+    <div class="eee">
+        Lorem ipsum dolor sit amet 
+        <h3 class="bbb">Lorem ipsum dolor sit amet.</h3>
+        <h3>Lorem ipsum dolor sit amet.</h3>
+    </div>
+
+    <!-- №6
+
+    Расскажите, что выбирает селектор в приведенном ниже коде. Затем напишите HTML код, подходящий под этот селектор. Вот код с селектором:
+    .eee p.bbb {
+        color: red;
+    } -->
+
+    <!-- Селектор выбирает элемент p с классом .bbb внутри элемента с классом .eee -->
+
+    <div class="eee">
+        Lorem ipsum dolor sit amet 
+        <h3 class="bbb">Lorem ipsum dolor sit amet.</h3>
+        <p class="bbb">Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <!-- №7
+
+    Расскажите, что выбирает селектор в приведенном ниже коде. Затем напишите HTML код, подходящий под этот селектор. Вот код с селектором:
+    .eee .bbb .kkk {
+        color: red;
+    } -->
+
+    <!-- Селектор выбирает элемент с классом .kkk внутри элемента с классом .bbb который в свою очередь находится внутри элемента с кассом .eee -->
+
+    <div class="eee">
+        Lorem ipsum dolor sit amet 
+        <h3 class="bbb">Lorem ipsum dolor sit amet.</h3>
+        <p class="bbb"><span class="kkk">Lorem</span> ipsum dolor sit amet.</p>
+    </div>
 </body>
 </html>
