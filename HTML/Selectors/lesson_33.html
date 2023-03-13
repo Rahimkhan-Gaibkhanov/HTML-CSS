@@ -13,5 +13,70 @@
 
     <a href="https://code.mu/ru/markup/book/prime/theory/descendant-selector-mistake/" class="path">Путь к уроку</a>
 
+    <!-- №1
+
+    Расскажите, что выбирает селектор в приведенном ниже коде. Затем напишите HTML код, подходящий под этот селектор. Вот код с селектором:
+    p.bbb {
+        color: red;
+    } -->
+
+    <!-- Селектор выбирает все абзацы с классом .bbb -->
+
+    <div>
+        <p class="bbb">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero aut est natus modi? Repellendus quaerat recusandae quidem tenetur esse amet nesciunt omnis, quasi corporis nostrum nihil ullam, dolore aliquid totam?</p>
+        
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque odit id earum quo ipsam at molestiae, qui libero pariatur eligendi beatae numquam sapiente iusto autem iste fugit, nisi neque reiciendis.</p>
+    </div>
+
+    <!-- №2
+
+    Расскажите, что выбирает селектор в приведенном ниже коде. Затем напишите HTML код, подходящий под этот селектор. Вот код с селектором:
+    p .bbb {
+        color: red;
+    } -->
+
+    <!-- Селектор выбирает все элементы с классом .bbb внутри абзацов -->
+
+    <div>
+        <p class="eee">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero aut est natus modi? Repellendus <span class="bbb">recusandae</span>  quidem tenetur esse amet nesciunt omnis, quasi corporis nostrum nihil ullam, dolore aliquid totam?</p>
+        
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque odit id earum quo ipsam at molestiae, qui libero pariatur eligendi beatae numquam sapiente iusto autem iste fugit, nisi neque reiciendis.</p>
+    </div>
+
+    <!-- №3
+
+    Расскажите, что выбирает селектор в приведенном ниже коде. Затем напишите HTML код, подходящий под этот селектор. Вот код с селектором:
+    .eee p.rrr {
+        color: red;
+    } -->
+
+    <!-- Селектор выбирает абзацы с классом rrr внутри элемеента с класом eee -->
+
+    <div>
+        <p class="eee">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero aut est natus modi? Repellendus <span class="bbb">recusandae</span>  quidem tenetur esse amet nesciunt omnis, quasi corporis nostrum nihil ullam, dolore aliquid totam?</p>
+        
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque odit id earum quo ipsam at molestiae, qui libero pariatur eligendi beatae numquam sapiente iusto autem iste fugit, nisi neque reiciendis.</p>
+    </div>
+
+    <div class="eee">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero aut est natus modi? Repellendus <span class="bbb">recusandae</span>  quidem tenetur esse amet nesciunt omnis, quasi corporis nostrum nihil ullam, dolore aliquid totam?</p>
+        
+        <p class="rrr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque odit id earum quo ipsam at molestiae, qui libero pariatur eligendi beatae numquam sapiente iusto autem iste fugit, nisi neque reiciendis.</p>
+    </div>
+
+    <!-- №4
+
+    Расскажите, что выбирает селектор в приведенном ниже коде. Затем напишите HTML код, подходящий под этот селектор. Вот код с селектором:
+    .eee p .aaa {
+        color: red;
+    } -->
+
+    <!-- Селектор выбирает элементы с классом aaa внутри абзацов которые в свою очередь находятся внуттр элемента с класом eee -->
+
+    <div class="eee">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero aut est natus modi? Repellendus <span class="aaa">recusandae</span>  quidem tenetur esse amet nesciunt omnis, quasi corporis nostrum nihil ullam, dolore aliquid totam?</p>
+        
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque odit id earum quo ipsam at molestiae, qui libero pariatur eligendi beatae numquam sapiente iusto autem iste fugit, nisi neque reiciendis.</p>
+    </div>
 </body>
 </html>
